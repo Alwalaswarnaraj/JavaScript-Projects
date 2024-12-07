@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    margin: auto;
+    margin-top: 15%;
+    color: white;
+    text-align: center;
+}
+.container{
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    background-color: orange;
+    border-radius: 6px;
+    padding: 30px 70px;
+}
+
+#clock{
+    /* margin: auto; */
+    font-size: 40px;
+}

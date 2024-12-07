@@ -1,0 +1,43 @@
+body{
+    margin: auto;
+    background-color: #212121;
+    color: #fff;
+}
+nav{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#h1{
+    text-decoration: underline wavy;
+}
+.container{
+    margin-top: 8%;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline wavy;
+}
+.main{
+    text-align: center;
+
+}
+
+#number{
+    width: 190px;
+    height: 30px;
+}
+
+button{
+
+    height: 30px;
+}
+
+#newGame{
+    display: inline-block;
+    cursor: pointer;
+    background-color: #8f6969;
+    padding: 15px;
+    border-radius: 8px;
+}

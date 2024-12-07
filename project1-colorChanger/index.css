@@ -1,0 +1,80 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #f0f0f0; /* Light background for better visibility */
+}
+
+/* Center the nav element horizontally and position it at the top */
+nav {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    gap: 20px; /* Space between buttons */
+    position: absolute;
+    top: 20px; /* Distance from the top of the page */
+    width: 100%;
+    background-color: #85a9ca;
+    padding: 25px;
+}
+
+/* Style the links as buttons */
+nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 26px;
+    color: black;
+    background-color: #7699b6; /* Blue color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+/* Hover effect */
+nav a:hover {
+    background-color: #97acc2; /* Darker blue */
+}
+
+.canvas{
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    /* padding-bottom: 70px; */
+}
+
+.canvas h1{
+    padding-bottom: 40px;
+}
+
+.button{
+    display: inline-block;
+    padding: 50px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#grey{
+    background-color: gray;
+    /* border: 2px; */
+}
+#yellow{
+    background-color: yellow;
+}
+#orange{
+    background-color: orange;
+}
+#blue{
+    background-color: blue;
+}
+
+.bottom{
+    margin: auto;
+    text-align: center;
+}
+
+.bottom h2 .sp{
+    padding-top: 100px;
+}
