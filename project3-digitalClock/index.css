@@ -5,6 +5,20 @@ body{
     color: white;
     text-align: center;
 }
+nav{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+nav a{
+    border: 1px solid #fff;
+    padding: 9px;
+    border-radius: 7px;
+    background-color: rgb(192, 231, 218);
+    text-decoration: none;
+    color: #212121;
+}
 .container{
     display: inline-block;
     margin: auto;
